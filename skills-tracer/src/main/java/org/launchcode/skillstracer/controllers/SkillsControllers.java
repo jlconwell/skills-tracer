@@ -22,6 +22,7 @@ public class SkillsControllers {
 
 
     @PostMapping ("form")
+//    @RequestMapping (value = "form", method = {RequestMethod.GET, RequestMethod.POST})
     @ResponseBody
     public String returnInformationFromControllers(@RequestParam String name, @RequestParam String language, @RequestParam String language2, @RequestParam String language3) {
 
